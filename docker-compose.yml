@@ -1,4 +1,4 @@
-version: "3.0"
+version: "2.0"
 
 volumes:
   db-data:
@@ -24,6 +24,6 @@ services:
       - .:/code
     ports:
       - "8180:8180"
-      - "8443:8443"
+      - "8183:8443"
     depends_on:
       - db
